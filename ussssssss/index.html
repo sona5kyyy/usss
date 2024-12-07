@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal</title>
+
+    <!-- Google Fonts for Mohria, Rhapsody, Bold Wonderful Branding -->
+    <link href="https://fonts.googleapis.com/css2?family=Mohria:wght@500&family=Rhapsody&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wonderfont&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="centered" id="firstScreen">
+        <h1>Hi Babygirl!</h1>
+        <button class="btn" id="hiButton">Hi Sona</button>
+    </div>
+
+    <div id="secondScreen" class="hidden">
+        <p>I have something to tell you. Are you ready?</p>
+        <button class="btn" id="yesButton">Yes</button>
+        <button class="btn" id="noButton">No</button>
+    </div>
+
+    <div id="thirdScreen" class="hidden final-content">
+        <p>We have been together for more than 6 months. I am so grateful to have you in my life. So...</p>
+        <img src="images/photo1.jpg" alt="Proposal Image" id="proposalImage">
+        <p>Will you be with me forever?</p>
+
+        <p>You have 10 seconds to think...</p>
+        <p id="countdown"></p>
+
+        <button class="btn" id="yesButtonConfetti">Yes</button>
+    </div>
+
+    <div id="confettiContainer" class="hidden"></div>
+
+    <div id="finalScreen" class="hidden">
+        <h1>YAYYY I LOVE YOU SO MUCH!</h1>
+        <p>💍❤️</p>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
+
